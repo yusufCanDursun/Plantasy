@@ -1,0 +1,858 @@
+[
+    {
+        "plantId": "1",
+        "name": "Aloe Vera",
+        "description": "Aloe Vera is a succulent plant species of the genus Aloe. Known for its thick, fleshy leaves that contain a gel-like substance, Aloe Vera is widely used for its medicinal properties, especially in treating burns, skin irritations, and wounds. This hardy plant thrives in hot, dry climates and can be grown indoors as long as it receives enough sunlight. Aloe Vera needs minimal watering, as it is drought-tolerant and can survive in poor soil conditions.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": true,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "2",
+        "name": "Spider Plant (Chlorophytum comosum)",
+        "description": "The Spider Plant is a popular, low-maintenance houseplant known for its long, arching green and white striped leaves. It is also called the Airplane Plant because of the plantlets that resemble small spiders hanging from the parent plant. Spider Plants are effective air purifiers and are very resilient, tolerating a wide range of light conditions and occasional neglect. They prefer bright, indirect sunlight and need to be watered regularly, but can survive if left for short periods without water.",
+        "wateringFrequency": "Every week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "3",
+        "name": "Peace Lily (Spathiphyllum)",
+        "description": "The Peace Lily is a graceful plant with glossy, dark green leaves and beautiful white flowers that resemble peace lilies. It is known for its ability to filter and purify indoor air by removing toxins like formaldehyde, benzene, and trichloroethylene. Peace Lilies are great for beginner gardeners as they are easy to care for and can thrive in low light conditions. They prefer moist soil but can tolerate periods of dryness. A signature feature of the Peace Lily is its ability to bloom even in low light.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "4",
+        "name": "Snake Plant (Sansevieria)",
+        "description": "The Snake Plant, also known as Mother-in-Law's Tongue, is one of the toughest houseplants available. It has tall, upright leaves that are green with yellow edges. Snake Plants are known for their air-purifying properties, especially at night, as they continue to produce oxygen while many other plants stop. They are perfect for beginners due to their low maintenance and resilience to neglect. They thrive in a variety of light conditions but prefer indirect sunlight and can survive in low light or complete darkness.",
+        "wateringFrequency": "Every 2-3 weeks",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "5",
+        "name": "Pothos (Epipremnum aureum)",
+        "description": "Pothos, also known as Devil's Ivy, is a hardy and versatile vine that grows well in a variety of indoor environments. It is a fast-growing plant with heart-shaped, variegated leaves in green, yellow, or white patterns. Pothos is ideal for hanging baskets, or it can be trained to climb on trellises. This plant thrives in low to medium light conditions and can be grown in both moist and slightly dry soil. Its low maintenance needs make it a popular choice for both novice and experienced gardeners.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "6",
+        "name": "English Ivy (Hedera helix)",
+        "description": "English Ivy is an evergreen climbing or ground-creeping plant with glossy, lobed leaves. It is a versatile plant that can be grown both indoors and outdoors. As a natural climber, it attaches itself to structures or walls and can be trained to grow in various shapes. English Ivy is a great air purifier, absorbing toxins such as formaldehyde, benzene, and trichloroethylene. It requires moderate watering and thrives in bright, indirect light. This plant prefers cooler temperatures and can tolerate some wind exposure.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": true,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+
+    },
+    {
+        "plantId": "7",
+        "name": "Fiddle Leaf Fig (Ficus lyrata)",
+        "description": "The Fiddle Leaf Fig is an impressive, large-leafed plant that can grow into a small tree in indoor spaces. Its glossy, broad leaves resemble a fiddle, which gives the plant its common name. Known for its dramatic appearance, this plant thrives in bright, indirect light and requires regular watering to maintain its beauty. Fiddle Leaf Figs can be a bit finicky when it comes to temperature and humidity, but with the right conditions, they make a stunning addition to any room. They also benefit from occasional pruning to maintain their shape.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "8",
+        "name": "Monstera Deliciosa",
+        "description": "Monstera Deliciosa, commonly known as the Swiss Cheese Plant, is a tropical evergreen that is easily recognizable by its large, perforated leaves. This plant is a popular choice for interior decoration due to its striking foliage and easy care requirements. Monstera thrives in bright, indirect light but can tolerate lower light conditions. It prefers moderate to high humidity and should be watered regularly, allowing the soil to dry out slightly between waterings. Monstera is also known for its ability to grow large and spread quickly, making it ideal for spacious interiors.",
+        "wateringFrequency": "Every 1-2 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "9",
+        "name": "ZZ Plant (Zamioculcas zamiifolia)",
+        "description": "The ZZ Plant is a tough and durable houseplant that can thrive on neglect. It is characterized by its glossy, dark green leaves and its ability to survive in low light and dry conditions. The ZZ Plant is well-suited for beginners or those with busy schedules, as it requires very little maintenance. It can survive in both bright and low light conditions, and its infrequent watering needs make it an excellent choice for people who tend to forget about their plants. However, it is important to avoid overwatering, as the ZZ Plant is sensitive to root rot.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "10",
+        "name": "Rubber Plant (Ficus elastica)",
+        "description": "The Rubber Plant is a large, evergreen tree-like plant that is popular for its glossy, dark green leaves. It is native to Southeast Asia and is known for its ability to grow indoors and reach considerable heights. Rubber Plants are relatively easy to care for, requiring bright, indirect light and consistent watering. They can tolerate some neglect but thrive when kept in well-draining soil and consistently moist conditions. Over time, the plant may need to be repotted as it grows larger. Rubber Plants also purify the air by removing toxins.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "11",
+        "name": "Bamboo Palm (Chamaedorea seifrizii)",
+        "description": "The Bamboo Palm is a tropical plant known for its feathery, arching leaves and its ability to purify the air. It is a slow-growing plant that thrives in indoor environments, providing a lush, green look to any space. Bamboo Palms can tolerate low light but prefer bright, indirect sunlight for optimal growth. They need consistently moist soil, but the plant can withstand occasional drying. This palm is especially popular for its air-purifying qualities, removing toxins like formaldehyde and benzene.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "12",
+        "name": "Dracaena",
+        "description": "Dracaena is a popular houseplant with long, sword-like leaves that can be green or variegated with white, yellow, or red edges. There are several varieties of Dracaena, each with different leaf shapes and colors. This plant is known for its easy care and air-purifying properties. Dracaena thrives in indirect light and should be watered when the soil feels dry to the touch. It’s important not to overwater Dracaena as it can lead to root rot.",
+        "wateringFrequency": "Every 2 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "13",
+        "name": "Succulent (Aloe, Echeveria, etc.)",
+        "description": "Succulents are a diverse group of plants known for their thick, fleshy leaves that store water. Varieties like Aloe and Echeveria are popular choices for indoor plants due to their low maintenance and unique, architectural shapes. Succulents prefer bright, indirect sunlight and require very little watering, making them ideal for people who are prone to overwatering their plants. These plants thrive in well-draining soil and can go weeks without needing to be watered.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Once every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "14",
+        "name": "Orchid (Phalaenopsis)",
+        "description": "Orchids, especially the Phalaenopsis variety, are one of the most popular flowering houseplants. Known for their stunning, delicate flowers in various colors, orchids require more specific care than some other indoor plants. They need bright, indirect light and should be watered thoroughly but allowed to dry out between waterings. Orchids also prefer higher humidity, so placing them in a bathroom or using a humidity tray can help them thrive. They bloom once or twice a year and require occasional fertilization.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "15",
+        "name": "Lavender",
+        "description": "Lavender is a fragrant, woody herb known for its calming scent and beautiful purple flowers. It’s often used in aromatherapy and as an ornamental plant in gardens and indoor spaces. Lavender prefers bright, direct sunlight and well-drained, slightly alkaline soil. It needs to be watered only when the soil is dry, as it is drought-tolerant once established. This plant thrives in warm, sunny environments and can be grown in containers or in the ground, adding both fragrance and beauty to any space.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Once every 2 months",
+        "likesWind": true,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "16",
+        "name": "Cactus (Cereus, Saguaro, etc.)",
+        "description": "Cacti are iconic desert plants known for their thick, water-storing stems and unique shapes. Varieties such as the Cereus and Saguaro cacti are popular for their towering presence and unique, spiny texture. Cacti require minimal watering and can survive in dry, low-humidity environments. They thrive in direct sunlight and prefer well-draining soil. These plants are perfect for those who want a low-maintenance plant that can withstand neglect.",
+        "wateringFrequency": "Once every 3-4 weeks",
+        "fertilizingFrequency": "Once every 3 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Hot",
+        "comments": []
+
+    },
+    {
+        "plantId": "17",
+        "name": "Bird of Paradise (Strelitzia reginae)",
+        "description": "The Bird of Paradise is a striking plant with large, glossy leaves and vibrant orange and blue flowers that resemble a bird in flight. Native to South Africa, this plant prefers bright, indirect light and moderate temperatures. Bird of Paradise requires regular watering, but the soil should be allowed to dry out between waterings. This plant is ideal for creating a tropical look in the home, and with the right care, it can grow tall, making a dramatic statement in any space.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "18",
+        "name": "Fern (Nephrolepis exaltata)",
+        "description": "Ferns are known for their delicate, lacy fronds and are popular for their lush, green foliage. The Boston Fern (Nephrolepis exaltata) is particularly common in households, thriving in humid, indirect light conditions. Ferns require consistent moisture, and their soil should never dry out completely. They prefer humid environments, so placing them in bathrooms or using a humidity tray is ideal. Regular misting can also help maintain their humidity levels.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "19",
+        "name": "Calathea",
+        "description": "Calathea is a tropical plant known for its striking foliage with colorful, patterned leaves. Varieties like the Peacock Plant or the Rattlesnake Plant are popular for their beautiful, patterned leaves that open and close in response to light. Calatheas require a warm, humid environment and thrive in indirect light. These plants need consistently moist soil but do not tolerate standing water. They are sensitive to fluoride and prefer filtered or distilled water for best results.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "20",
+        "name": "Spiderwort (Tradescantia)",
+        "description": "Spiderwort, also known as Tradescantia, is a vibrant, trailing plant known for its colorful, variegated leaves in shades of green, purple, and pink. It is a fast-growing plant that thrives in bright, indirect sunlight but can also tolerate low light conditions. Spiderwort prefers moist soil but does not like to sit in standing water, so good drainage is essential. It requires occasional pruning to maintain its compact shape, and it blooms small, blue or purple flowers in favorable conditions.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "21",
+        "name": "Golden Pothos",
+        "description": "Golden Pothos, or Epipremnum aureum, is a popular and easy-to-care-for houseplant known for its heart-shaped, variegated leaves. It thrives in low to bright, indirect light and is highly tolerant of neglect, making it a favorite among beginners. Golden Pothos is a fast-growing, trailing vine that can be trained to grow along a trellis or left to cascade from hanging baskets. It prefers to dry out between waterings but can tolerate occasional overwatering.",
+        "wateringFrequency": "Once every 1-2 weeks",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "22",
+        "name": "Peperomia",
+        "description": "Peperomia is a genus of small, ornamental houseplants known for their fleshy, textured leaves and compact size. With a wide variety of leaf shapes and colors, Peperomia plants are perfect for adding diversity to indoor spaces. They prefer bright, indirect light and should be watered when the soil feels dry to the touch. Peperomia plants are relatively low-maintenance and can tolerate neglect, making them ideal for those with busy lifestyles.",
+        "wateringFrequency": "Once every 1-2 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+
+    },
+    {
+        "plantId": "23",
+        "name": "Prayer Plant (Maranta leuconeura)",
+        "description": "The Prayer Plant, also known as Maranta leuconeura, is a tropical plant known for its unique foliage that folds up at night, resembling hands in prayer. The plant features beautiful, vibrant leaf patterns with red and green hues. Prayer Plants thrive in indirect light and high humidity. They need consistently moist soil and are sensitive to dry air, so regular misting or a humidity tray is recommended. This plant prefers moderate temperatures and does not tolerate cold drafts.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "24",
+        "name": "African Violet (Saintpaulia)",
+        "description": "African Violets are beloved for their small, colorful blooms and velvety leaves. These plants are compact and perfect for windowsills or small spaces. African Violets prefer bright, indirect light and should be watered from the bottom to prevent water from getting on the leaves, which can cause spotting. They thrive in humid environments, so a humidity tray or regular misting can help them flourish. These plants bloom throughout the year with proper care.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2-3 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+
+    },
+    {
+        "plantId": "25",
+        "name": "Begonia",
+        "description": "Begonias are a diverse group of plants with colorful, waxy leaves and vibrant flowers. They come in many varieties, including trailing, bushy, and tuberous types. Begonias prefer bright, indirect light and need well-draining soil to prevent root rot. They like their soil to stay moist but not soggy. Begonias can also thrive in slightly cooler temperatures and can be grown both indoors and outdoors, depending on the climate.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "26",
+        "name": "Croton",
+        "description": "Crotons are known for their stunning, multi-colored leaves in shades of red, yellow, orange, and green. These plants require bright, indirect light to maintain their vibrant foliage. Crotons need regular watering but should not sit in waterlogged soil. They thrive in warm, humid environments, so a humidity tray or misting can be beneficial. Crotons are sensitive to temperature changes and should be kept away from drafts or cold windows.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "27",
+        "name": "Jade Plant (Crassula ovata)",
+        "description": "Jade Plants, also known as Crassula ovata, are popular succulent houseplants known for their thick, fleshy leaves that store water. These plants require minimal care and are known for their longevity. They thrive in bright, indirect light and should be watered when the soil is dry to the touch. Jade Plants can tolerate some neglect and are ideal for beginner gardeners. They are also believed to bring good luck and prosperity, making them a popular gift plant.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "28",
+        "name": "Ficus Benjamina",
+        "description": "Ficus Benjamina, also known as the Weeping Fig, is a popular indoor tree with glossy, lance-shaped leaves. It is a low-maintenance plant that thrives in bright, indirect light. Ficus Benjamina can tolerate some neglect but prefers consistent watering and should not be overwatered. The tree can grow quite large, making it suitable for larger indoor spaces. It’s important to prune Ficus Benjamina regularly to maintain its shape and remove dead or damaged leaves.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "29",
+        "name": "Schefflera",
+        "description": "Schefflera, also known as the Umbrella Tree, is a popular indoor plant with glossy, palmate leaves. It is known for its easy care and ability to grow in low to bright, indirect light. Schefflera can tolerate drought and should be watered when the soil feels dry. While it can grow quite large, it is also easy to prune and maintain a more compact size. This plant is also known for being an air purifier and adds a tropical touch to indoor spaces.",
+        "wateringFrequency": "Once every 1-2 weeks",
+        "fertilizingFrequency": "Once every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "30",
+        "name": "Kalanchoe",
+        "description": "Kalanchoe is a succulent plant known for its vibrant flowers, which can range in color from red to pink, orange, yellow, and purple. This plant is easy to care for and thrives in bright, indirect light. Kalanchoe should be watered thoroughly but allowed to dry out between waterings, as it is drought-tolerant. It's ideal for those who prefer low-maintenance plants. Overwatering can cause root rot, so ensure good drainage. Kalanchoe is also known for its ability to bloom multiple times a year with proper care.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "31",
+        "name": "Chinese Evergreen (Aglaonema)",
+        "description": "Chinese Evergreen, or Aglaonema, is a popular houseplant known for its attractive foliage, often variegated with silver or red tones. It is a low-maintenance plant that can tolerate low light conditions, making it ideal for indoor spaces. Chinese Evergreen prefers humid environments and well-drained soil. It should be watered when the top inch of soil feels dry. This plant is also known for its air-purifying qualities, improving indoor air quality while adding beauty to any room.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "32",
+        "name": "Tuberous Begonia",
+        "description": "Tuberous Begonias are popular for their large, colorful flowers that bloom during the warmer months. These plants thrive in bright, indirect light and prefer well-draining, slightly acidic soil. They need regular watering, but their roots should not sit in water. Begonias are also sensitive to humidity, so they may need misting during dry spells. Tuberous Begonias can be grown as annuals in temperate climates, adding vibrant colors to gardens or indoors with proper care.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 weeks during blooming season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "33",
+        "name": "Hoya",
+        "description": "Hoya, also known as Wax Plant, is a group of tropical plants known for their waxy, star-shaped flowers and thick, waxy leaves. These plants are hardy and adaptable, thriving in bright, indirect light and requiring minimal watering. Hoyas prefer to dry out between waterings and should be allowed to fully drain. They are ideal for hanging baskets or as trailing plants. While Hoyas bloom infrequently, their sweet-smelling, star-shaped flowers are a reward for their patient caretakers.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "34",
+        "name": "Bamboo",
+        "description": "Bamboo is a versatile and low-maintenance plant that can be grown indoors or outdoors, depending on the climate. It prefers bright, indirect light and should be watered regularly, ensuring the roots are submerged in water if growing hydroponically. Bamboo is known for its ability to grow quickly and is often used in Feng Shui to bring positive energy. It can be grown in soil or water, and it’s essential to change the water frequently to keep the plant healthy.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "35",
+        "name": "Gerbera Daisy",
+        "description": "Gerbera Daisy is a bright and cheerful flower that comes in a variety of colors, including pink, red, orange, and yellow. These plants thrive in full sunlight and need well-drained soil. They should be watered regularly but not overwatered, as they do not tolerate sitting in water. Gerbera Daisies are perfect for adding color to both indoor and outdoor spaces. They may require occasional pruning to remove dead flowers and encourage new growth, and they benefit from a little extra humidity.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month during blooming season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "36",
+        "name": "Cast Iron Plant (Aspidistra elatior)",
+        "description": "The Cast Iron Plant, or Aspidistra elatior, is known for its resilience and ability to thrive in low-light conditions. This plant is perfect for areas with little natural light, such as offices or bathrooms. It has dark green, glossy leaves that can grow up to 2 feet in length. Cast Iron Plants are low-maintenance and can tolerate a variety of environmental conditions, including dry air. They require occasional watering when the soil becomes dry, but they are highly tolerant of neglect.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Every 3 months",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "37",
+        "name": "String of Pearls (Senecio rowleyanus)",
+        "description": "String of Pearls is a unique and striking succulent plant known for its trailing strands of small, spherical leaves that resemble pearls. This plant is ideal for hanging baskets or shelves, where its cascading nature can be displayed. String of Pearls thrives in bright, indirect light and requires very little water. It is drought-tolerant and should be watered sparingly, allowing the soil to dry out completely between waterings. Overwatering can cause the leaves to rot.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "38",
+        "name": "Lavender",
+        "description": "Lavender is a fragrant herb known for its purple flowers and calming aroma. It thrives in full sunlight and requires well-draining soil. Lavender is drought-tolerant and should not be overwatered. It prefers slightly alkaline soil and requires periodic pruning to maintain its shape and encourage new growth. Lavender can be grown indoors with sufficient light or outdoors in gardens. Its flowers are often used in aromatherapy, making it a favorite for creating a relaxing atmosphere.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "39",
+        "name": "Coleus",
+        "description": "Coleus is a fast-growing annual plant with vibrant, multicolored foliage. It is often used as an ornamental plant in both outdoor gardens and indoor spaces. Coleus prefers bright, indirect light and moist, well-draining soil. It needs regular watering to keep the soil evenly moist but should not be overwatered. This plant can tolerate some shade, but its colors are more vibrant in full sun. Coleus plants are also easy to propagate, making them a favorite among gardeners.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "40",
+        "name": "Bromeliad",
+        "description": "Bromeliads are tropical plants known for their vibrant, colorful flowers and unique, spiky leaves. They thrive in bright, indirect light and are perfect for indoor spaces. Bromeliads prefer moist, well-draining soil and should be watered regularly, but they do not like to be overwatered. It's important to keep the central 'cup' of the plant filled with water, as it collects moisture in its natural habitat. Bromeliads are also easy to care for and make a bold statement in any room.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "41",
+        "name": "Pilea (Pilea peperomioides)",
+        "description": "Pilea peperomioides, also known as the Chinese Money Plant, is a popular houseplant with round, flat leaves that grow on long, thin stems. This plant prefers bright, indirect light and should be watered when the soil is dry to the touch. Pilea is known for its easy care and quick growth, making it an excellent choice for beginners. It's also a favorite for propagation, as it produces offshoots that can be replanted. Regularly rotating the plant will ensure even growth.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "42",
+        "name": "Epipremnum aureum (Golden Pothos)",
+        "description": "Golden Pothos is a versatile and hardy plant known for its trailing vines and heart-shaped leaves that are often variegated in shades of yellow and green. This plant is highly adaptable and can thrive in low to bright indirect light. It is perfect for beginners as it requires minimal care. Golden Pothos should be watered when the top of the soil feels dry. It's also known for its air-purifying properties, making it a great choice for indoor environments.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "43",
+        "name": "Lavender",
+        "description": "Lavender is a fragrant herb known for its purple flowers and calming aroma. It thrives in full sunlight and requires well-draining soil. Lavender is drought-tolerant and should not be overwatered. It prefers slightly alkaline soil and requires periodic pruning to maintain its shape and encourage new growth. Lavender can be grown indoors with sufficient light or outdoors in gardens. Its flowers are often used in aromatherapy, making it a favorite for creating a relaxing atmosphere.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "44",
+        "name": "Phalaenopsis Orchid",
+        "description": "Phalaenopsis Orchids, also known as Moth Orchids, are among the most popular orchids due to their stunning, long-lasting flowers and ease of care. They prefer bright, indirect light and should be watered once a week, allowing the soil to dry out between waterings. Orchids also benefit from increased humidity, so misting the leaves occasionally or placing the pot on a tray of pebbles and water can be helpful. After blooming, the flower spike can be cut back to encourage reblooming.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "45",
+        "name": "Grape Ivy",
+        "description": "Grape Ivy is a fast-growing, trailing vine that produces attractive, lobed leaves that resemble those of grapevines. This plant thrives in bright, indirect light and should be watered regularly, but allowed to dry out slightly between waterings. Grape Ivy can be trained to grow on trellises or allowed to cascade from hanging baskets. It benefits from occasional pruning to keep it tidy and encourage new growth. Grape Ivy is a great choice for adding a lush, green look to any space.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "46",
+        "name": "Cineraria",
+        "description": "Cineraria is a vibrant flowering plant known for its daisy-like flowers that come in shades of blue, purple, red, and white. This plant thrives in cool, bright conditions and should be kept out of direct sunlight to avoid scorching its delicate petals. Cineraria prefers slightly moist soil, so it should be watered regularly, but care should be taken not to overwater. It's often grown as an annual in outdoor gardens or as a houseplant in cooler climates.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "47",
+        "name": "Venus Flytrap (Dionaea muscipula)",
+        "description": "The Venus Flytrap is a fascinating carnivorous plant that catches and digests insects with its unique trap-like leaves. It thrives in bright, direct sunlight and requires a humid environment. Venus Flytraps need to be watered with distilled or rainwater, as they are sensitive to minerals found in tap water. They should be kept in moist, acidic soil, and their traps will close when triggered by prey. While they do not require feeding, occasional feeding can keep them healthy.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 3 months",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "48",
+        "name": "Maranta",
+        "description": "Maranta, also known as the Prayer Plant, is recognized for its striking, patterned foliage and its unique ability to fold its leaves upward at night, resembling hands in prayer. This plant prefers low to medium indirect light and needs consistently moist soil. Maranta enjoys high humidity, so it may benefit from occasional misting or placement in a humid room. It should be watered when the soil feels dry to the touch but not left in standing water.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "49",
+        "name": "Impatiens",
+        "description": "Impatiens are popular flowering plants known for their colorful blooms, which come in shades of pink, red, white, purple, and orange. They thrive in shaded areas and prefer moist, well-draining soil. Impatiens need regular watering to keep the soil consistently moist, but they should not be overwatered. These plants are perfect for adding color to shady garden spots or as indoor plants in low-light areas. They bloom profusely during the warmer months and are perfect for containers or hanging baskets.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every month during blooming season",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "50",
+        "name": "Hens and Chicks (Sempervivum)",
+        "description": "Hens and Chicks, also known as Sempervivum, is a low-maintenance succulent plant that produces rosettes of thick, fleshy leaves. The 'hens' are the central rosette, while the 'chicks' are the smaller rosettes that form around it. This plant thrives in full sun and well-draining soil, making it perfect for rock gardens or containers. Hens and Chicks are drought-tolerant and can survive in poor soil conditions, requiring only occasional watering once the soil has dried out.",
+        "wateringFrequency": "Once every 2-3 weeks",
+        "fertilizingFrequency": "Once a year",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "51",
+        "name": "Dusty Miller",
+        "description": "Dusty Miller, known for its silver-gray foliage, is a hardy perennial that adds a striking contrast to gardens and landscapes. This plant prefers full sun and well-drained soil and is tolerant of drought once established. Dusty Miller is often used in ornamental gardens, particularly in flower beds, as a border or accent plant. It is low-maintenance, requiring only occasional pruning to remove dead or damaged leaves. While the plant produces small yellow flowers, it is mainly grown for its beautiful silvery leaves.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "52",
+        "name": "Lobelia",
+        "description": "Lobelia is a flowering plant known for its vibrant blue, purple, or white flowers that bloom from spring to fall. This plant thrives in moist, well-draining soil and prefers full sun or partial shade. Lobelia is often used in hanging baskets, window boxes, or as ground cover due to its trailing growth habit. It requires regular watering to keep the soil consistently moist but should not be overwatered. Lobelia attracts pollinators like bees and butterflies, making it a great addition to garden spaces.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a month during blooming season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "53",
+        "name": "Maranta",
+        "description": "Maranta, also known as the Prayer Plant, is famous for its beautifully patterned foliage and its unique ability to fold its leaves upward at night, resembling hands in prayer. This plant prefers low to medium indirect light and requires consistently moist soil. Maranta thrives in high humidity, so misting the plant or placing it in a humid room can be beneficial. It's an excellent choice for beginners as it’s relatively easy to care for and adds a beautiful, tropical touch to indoor spaces.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "54",
+        "name": "Fuchsia",
+        "description": "Fuchsia is a vibrant flowering plant known for its drooping, tubular flowers in shades of pink, purple, red, and white. It thrives in cool, moist conditions and prefers partial shade. Fuchsia is a popular choice for hanging baskets or container gardening, where its delicate flowers can be admired. It requires regular watering and well-draining, slightly acidic soil. Fuchsia benefits from regular pruning to encourage new blooms and maintain a neat shape. It's also an excellent plant for attracting hummingbirds.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4 weeks during blooming season",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "55",
+        "name": "Lily of the Valley (Convallaria majalis)",
+        "description": "Lily of the Valley is a fragrant, woodland plant known for its delicate white bell-shaped flowers that bloom in the spring. It prefers shady spots with moist, well-drained soil and is perfect for ground cover or under trees where other plants may struggle. Lily of the Valley spreads rapidly through underground rhizomes, creating dense clusters of flowers. While it is easy to care for, it should be handled with caution, as all parts of the plant are toxic if ingested.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Once a year",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "56",
+        "name": "Calla Lily",
+        "description": "Calla Lily is an elegant, flowering plant known for its smooth, trumpet-shaped flowers that come in a variety of colors, including white, pink, yellow, and purple. This plant prefers full sun to partial shade and thrives in well-draining, moist soil. Calla lilies are often grown in containers or used as cut flowers in bouquets. They require regular watering, especially during the growing season, and benefit from occasional fertilization. Calla lilies are perfect for adding a sophisticated touch to gardens and floral arrangements.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "57",
+        "name": "Arecaceae Palm",
+        "description": "Arecaceae Palm, commonly referred to as the Palm family, includes a wide variety of palm species, many of which are popular indoor plants. Palms generally thrive in bright, indirect light and prefer well-draining soil. They should be watered regularly, but it’s important to allow the soil to dry out slightly between waterings to avoid root rot. These plants add a tropical feel to any space and are perfect for adding height and texture to indoor gardens. Some popular varieties include the Areca Palm and the Parlor Palm.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "58",
+        "name": "Schefflera",
+        "description": "Schefflera, also known as the Umbrella Tree, is a popular houseplant due to its glossy, palmate leaves and easy care requirements. This plant thrives in bright, indirect light and prefers slightly moist, well-draining soil. Schefflera should be watered when the top of the soil feels dry, but it's important to avoid overwatering. While it can tolerate lower light conditions, it will grow best in bright environments. Regular pruning can help maintain a compact shape and encourage healthy growth.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 2 months during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "59",
+        "name": "Eucalyptus",
+        "description": "Eucalyptus is an aromatic evergreen tree that is known for its distinctively fragrant leaves and silvery blue-green foliage. While often grown outdoors in warmer climates, smaller varieties of Eucalyptus can be grown indoors in pots or containers. Eucalyptus prefers full sun and well-draining soil. It should be watered when the soil dries out, but it is drought-tolerant once established. The leaves of the plant can be used for their aromatic oils, which are often utilized in essential oils and for their therapeutic properties.",
+        "wateringFrequency": "Once every 2 weeks",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "60",
+        "name": "Cress",
+        "description": "Cress is a fast-growing, edible herb known for its peppery, tangy flavor. It thrives in cool, moist environments and can be grown quickly from seeds. Cress is often used in salads, sandwiches, and garnishes. It prefers well-drained, fertile soil and indirect light. Cress can be grown both indoors and outdoors, and it requires frequent watering to keep the soil moist. This herb is a popular choice for gardeners looking for a quick harvest and is ideal for beginner gardeners.",
+        "wateringFrequency": "Once every 2-3 days",
+        "fertilizingFrequency": "Every 3 weeks",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "61",
+        "name": "Spider Lily",
+        "description": "Spider Lily, also known as Hymenocallis, is a striking ornamental plant that produces large, fragrant, white flowers resembling spider legs. It thrives in moist, well-draining soil and prefers full sun to partial shade. Spider lilies are often grown near water sources or in gardens with consistently moist conditions. These plants go dormant in the winter and bloom in the spring or summer. Spider lilies require regular watering, and they can be propagated by dividing the bulbs.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4-6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "62",
+        "name": "Dianthus",
+        "description": "Dianthus, commonly known as carnations or pinks, is a popular flowering plant known for its colorful, fragrant flowers. These plants prefer well-drained, slightly alkaline soil and full sun. Dianthus blooms from late spring to early summer and attracts pollinators like butterflies and bees. It is easy to grow and maintain, requiring regular watering but well-drained soil to avoid root rot. Dianthus can be grown as annuals or perennials depending on the climate and variety.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "63",
+        "name": "Geranium",
+        "description": "Geraniums are popular flowering plants known for their bright, colorful blooms and distinctive fragrance. These plants are often grown as annuals and can be found in a variety of colors including red, pink, white, and purple. Geraniums thrive in well-drained soil and prefer full sun, though they can tolerate partial shade. They require regular watering, but overwatering should be avoided. Geraniums are also used in containers and hanging baskets, adding vibrant color to gardens and patios.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "64",
+        "name": "Amaryllis",
+        "description": "Amaryllis is a bulbous plant known for its large, trumpet-shaped flowers that bloom in winter or early spring. The flowers can be red, white, pink, or orange, and they are often grown indoors as a decorative plant during the holiday season. Amaryllis prefers bright, indirect light and well-draining, fertile soil. It requires moderate watering, allowing the soil to dry out slightly between waterings. After flowering, Amaryllis can be kept in a dormant state and then rebloomed the following year.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "65",
+        "name": "Nasturtium",
+        "description": "Nasturtium is a vibrant, easy-to-grow plant known for its edible leaves and flowers. The flowers are typically orange, red, or yellow, and they have a peppery taste, making them a popular addition to salads. Nasturtiums prefer well-drained soil and full sun, and they are often grown as ground cover or in hanging baskets. They require regular watering but should not be overwatered. Nasturtiums can also act as natural pest deterrents in vegetable gardens.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "66",
+        "name": "Chinese Money Plant",
+        "description": "The Chinese Money Plant, also known as Pilea peperomioides, is a popular indoor plant that produces round, coin-shaped leaves. It is easy to care for and thrives in bright, indirect light and well-draining soil. The plant should be watered when the top of the soil feels dry, but overwatering should be avoided. Chinese Money Plant is often used as a decorative houseplant due to its unique appearance, and it is known for being a symbol of good luck and wealth.",
+        "wateringFrequency": "Once every 7-10 days",
+        "fertilizingFrequency": "Every 2 months during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "67",
+        "name": "Caladium",
+        "description": "Caladium is a tropical plant known for its colorful, heart-shaped leaves that come in shades of red, pink, white, and green. Caladiums thrive in warm, humid environments and require partial shade. These plants prefer well-draining, rich soil and should be watered regularly, but the soil should not stay too soggy. Caladiums are commonly grown as annuals in temperate climates but can be grown as perennials in warmer regions. They are often used as decorative foliage plants in gardens and containers.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4-6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "68",
+        "name": "Wisteria",
+        "description": "Wisteria is a fast-growing, deciduous vine known for its stunning, cascading clusters of purple, blue, or white flowers. It thrives in full sun and well-drained soil, and it requires regular pruning to keep its growth in check. Wisteria can be grown on trellises, pergolas, or fences, where its fragrant flowers can be enjoyed in spring. This plant can be invasive in certain areas, so it is important to manage its growth carefully. Wisteria needs a structure to support its climbing growth and benefits from fertilization during the growing season.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "69",
+        "name": "Hyacinth",
+        "description": "Hyacinth is a fragrant flowering plant known for its colorful spikes of flowers, typically in shades of purple, blue, white, or pink. It is often grown in spring for its beautiful, fragrant blooms. Hyacinth prefers well-draining soil and full sun, but it can tolerate partial shade. The plant should be watered regularly, but overwatering should be avoided. Hyacinth is commonly grown as a bulb in pots, gardens, or as cut flowers in vases. It is easy to care for and blooms in early spring, attracting pollinators like bees.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 4-6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "70",
+        "name": "Daffodil",
+        "description": "Daffodils (Narcissus) are among the first flowers to bloom in spring, known for their bright yellow, white, or orange trumpet-shaped flowers. These perennial plants prefer well-drained, fertile soil and full sun to partial shade. Daffodils grow from bulbs and require minimal care once planted, making them a popular choice for gardens and landscaping. They are tolerant of a variety of soils and can naturalize, returning year after year. Daffodils are also deer-resistant and attract pollinators like bees.",
+        "wateringFrequency": "Once a week during growing season",
+        "fertilizingFrequency": "Every 4-6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "71",
+        "name": "Jasmine",
+        "description": "Jasmine (Jasminum) is a fragrant flowering plant known for its delicate, star-shaped flowers that bloom in white, yellow, or pink. Jasmine thrives in warm climates and prefers well-drained, slightly acidic soil. It requires full sun to bloom profusely and benefits from regular watering, though it should not be waterlogged. Jasmine is commonly used in gardens, as a climbing vine, or in pots. Its flowers are often used in perfumes, and it attracts pollinators like bees and butterflies.",
+        "wateringFrequency": "Once every 5-7 days",
+        "fertilizingFrequency": "Every 4 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "72",
+        "name": "Bleeding Heart (Dicentra spectabilis)",
+        "description": "Bleeding Heart is a perennial plant known for its unique heart-shaped flowers that dangle from arching stems. The flowers are typically pink or white and bloom in spring or early summer. Bleeding Heart thrives in well-drained, moist soil and partial to full shade, making it ideal for woodland gardens. It prefers cool temperatures and requires regular watering to maintain moist soil. Once the flowering period ends, the plant will go dormant, making it a perfect plant for filling in gaps in garden beds.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": false,
+        "temperaturePreference": "Cool",
+        "comments": []
+    },
+    {
+        "plantId": "73",
+        "name": "Lemon Balm",
+        "description": "Lemon Balm (Melissa officinalis) is a fragrant herb known for its lemon-scented leaves, which are often used in teas and as a culinary herb. It is a fast-growing perennial that thrives in full sun to partial shade and prefers moist, well-drained soil. Lemon Balm is easy to grow and is often used in herb gardens or containers. It attracts pollinators like bees and is known for its calming properties. Regular pruning helps keep the plant healthy and prevents it from becoming too invasive in the garden.",
+        "wateringFrequency": "Once every 3-4 days",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    },
+    {
+        "plantId": "74",
+        "name": "Shiso",
+        "description": "Shiso (Perilla frutescens) is a versatile herb commonly used in Asian cuisine, known for its unique flavor that blends mint, basil, and cilantro. It grows well in full sun and prefers well-drained, slightly acidic soil. Shiso can be grown in containers or directly in the ground and requires regular watering to keep the soil consistently moist. This herb is often used in salads, sushi, or as a garnish. It has both ornamental and culinary uses, with green or purple varieties that add color to the garden.",
+        "wateringFrequency": "Once every 3-4 days",
+        "fertilizingFrequency": "Every 4 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Warm",
+        "comments": []
+    },
+    {
+        "plantId": "75",
+        "name": "Chives",
+        "description": "Chives (Allium schoenoprasum) are a hardy herb known for their mild onion flavor. They have tall, thin green leaves and produce purple, pom-pom-like flowers in late spring or early summer. Chives grow well in full sun to partial shade and prefer well-drained, moist soil. They are commonly used in cooking, adding flavor to salads, soups, and dips. Chives are easy to grow and can be harvested multiple times throughout the growing season. They attract pollinators like bees and are ideal for container gardening.",
+        "wateringFrequency": "Once a week",
+        "fertilizingFrequency": "Every 6 weeks during growing season",
+        "likesWind": false,
+        "likesSun": true,
+        "temperaturePreference": "Moderate",
+        "comments": []
+    }
+]
+
+
+
+
+
+
+
+
+
+
