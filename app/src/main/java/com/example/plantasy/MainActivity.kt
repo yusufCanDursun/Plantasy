@@ -34,6 +34,9 @@ class MainActivity : ComponentActivity() {
                     composable("register") {
                         RegisterPage(navController)
                     }
+                    composable("home") {
+                        HomePage(navController)
+                    }
                 }
             }
         }
