@@ -37,6 +37,9 @@ class MainActivity : ComponentActivity() {
                     composable("home") {
                         HomePage(navController)
                     }
+                    composable("plantlist") {
+                        PlantListPage(navController)
+                    }
                 }
             }
         }
