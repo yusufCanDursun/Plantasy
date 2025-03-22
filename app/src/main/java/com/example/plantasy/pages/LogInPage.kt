@@ -32,6 +32,7 @@ import com.example.plantasy.model.AddPlant
 
 @Composable
 fun LogInPage(navController: NavController) {
+    FastLogIn(navController)
     LogInMain(navController)
 }
 
@@ -79,6 +80,20 @@ fun LogInMain(navController: NavController) {
                 )
                 Spacer(modifier = Modifier.height(12.dp))
                 SignUpButton(navController)
+            }
+        }
+    }
+}
+
+@Composable
+fun FastLogIn(navController: NavController) {
+    val auth = FirebaseAuth.getInstance()
+    val currentUser = auth.currentUser
+
+    LaunchedEffect(currentUser) {
+        if (currentUser != null) {
+            navController.navigate("home") {
+                popUpTo("login") { inclusive = true }
             }
         }
     }
