@@ -149,6 +149,26 @@ fun TextHomePage() {
     )
 }
 
+private fun scheduleNotifications(context: Context) {
+    scheduleNotification(context)
+    schedulePeriodicNotification(context)
+}
+
+private fun scheduleNotification(context: Context) {
+    val workRequest = OneTimeWorkRequest.Builder(NotificationWorker::class.java)
+        .build()
+
+    WorkManager.getInstance(context).enqueue(workRequest)
+}
+
+private fun schedulePeriodicNotification(context: Context) {
+    val periodicWorkRequest = PeriodicWorkRequest.Builder(
+        NotificationWorker::class.java,
+        6, TimeUnit.HOURS
+    ).build()
+
+    WorkManager.getInstance(context).enqueue(periodicWorkRequest)
+}
 
 @Preview(showBackground = true)
 @Composable
