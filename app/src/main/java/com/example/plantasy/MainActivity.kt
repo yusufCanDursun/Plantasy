@@ -40,6 +40,9 @@ class MainActivity : ComponentActivity() {
                     composable("plantlist") {
                         PlantListPage(navController)
                     }
+                    composable("profile") {
+                        ProfilePage(navController)
+                    }
                 }
             }
         }
