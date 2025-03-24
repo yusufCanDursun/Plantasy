@@ -43,6 +43,12 @@ class MainActivity : ComponentActivity() {
                     composable("profile") {
                         ProfilePage(navController)
                     }
+                    composable("plantinfo/{plantId}") { backStackEntry ->
+                        val plantId = backStackEntry.arguments?.getString("plantId")
+                        if (plantId != null) {
+                            PlantInfo(navController, plantId)
+                        }
+                    }
                 }
             }
         }
